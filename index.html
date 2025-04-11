@@ -3,120 +3,91 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>StoryMusicLatam</title>
+  <title>StoryMusicLatam - Barranquilla Soy Yo</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fefefe;
+      margin: 0;
+      padding: 0;
       text-align: center;
-      padding: 2rem;
-      background-color: #fff8f0;
       color: #333;
     }
-
     h1 {
-      color: #ff6f00;
-      font-size: 2rem;
+      color: #e63946;
+      font-size: 2.2rem;
+      margin-top: 30px;
     }
-
     h2 {
-      color: #c62828;
-      font-size: 1.5rem;
-      margin-top: 0.5rem;
+      color: #222;
+      font-size: 1.8rem;
+      margin-top: 10px;
+      margin-bottom: 5px;
     }
-
-    .message {
-      font-size: 1.1rem;
-      margin: 1rem auto;
-      max-width: 600px;
-      line-height: 1.5;
+    .frase-corazon {
+      font-size: 1rem;
+      color: #444;
+      margin-top: 0;
+      margin-bottom: 20px;
     }
-
-    @media (max-width: 600px) {
-      .message {
-        font-size: 1rem;
-      }
-
-      h2 {
-        font-size: 1.3rem;
-      }
-    }
-
     .video-thumbnail {
-      margin: 2rem 0;
-      cursor: pointer;
-      transition: transform 0.2s ease;
-      width: 100%;
+      width: 90%;
       max-width: 600px;
-      border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    }
-
-    .video-thumbnail:hover {
-      transform: scale(1.02);
-    }
-
-    .social-buttons {
-      display: flex;
-      justify-content: center;
-      gap: 1rem;
-      flex-wrap: wrap;
-      margin-top: 2rem;
-    }
-
-    .social-button {
-      width: 60px;
-      height: 60px;
+      cursor: pointer;
+      margin-top: 10px;
       border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    .support-message {
+      margin-top: 15px;
+      font-weight: 500;
+      color: #555;
+    }
+    .social-icons {
+      margin-top: 40px;
       display: flex;
-      align-items: center;
       justify-content: center;
-      transition: transform 0.2s ease;
+      gap: 30px;
     }
-
-    .social-button:hover {
-      transform: scale(1.1);
+    .social-icons a {
+      font-size: 2rem;
+      text-decoration: none;
     }
-
-    /* Colores de redes sociales */
-    .facebook { background-color: #3b5998; }
-    .instagram { background-color: #e1306c; }
-    .tiktok { background-color: #000; }
-    .youtube { background-color: #ff0000; }
-
-    .social-button img {
-      width: 30px;
-      height: 30px;
-    }
+    .youtube { color: #FF0000; }
+    .instagram { color: #C13584; }
+    .facebook { color: #1877F2; }
+    .tiktok { color: #000000; }
   </style>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <h1>Bienvenido a StoryMusicLatam!</h1>
+
+  <h1>¡Bienvenido a StoryMusicLatam!</h1>
+
   <h2>🎶 Barranquilla Soy Yo</h2>
 
-  <div class="message">
-    <strong>🎵 Esta canción la hicimos con el corazón por Barranquilla.</strong><br>
-    ✨ ¡Tu apoyo nos inspira a seguir creando!
-  </div>
+  <p class="frase-corazon">🎵 Esta canción la hicimos con el corazón por Barranquilla.</p>
 
-  <!-- Imagen del video que enlaza a YouTube -->
-  <a href="https://www.youtube.com/watch?v=TU_VIDEO_ID" target="_blank">
-    <img class="video-thumbnail" src="https://i.ytimg.com/vi/TU_VIDEO_ID/hqdefault.jpg" alt="Miniatura del video">
+  <a href="https://www.youtube.com/watch?v=__QjUQ6D16M" target="_blank">
+    <img src="https://img.youtube.com/vi/__QjUQ6D16M/maxresdefault.jpg" alt="Miniatura del video Barranquilla Soy Yo" class="video-thumbnail" />
   </a>
 
-  <!-- Botones de redes sociales -->
-  <div class="social-buttons">
-    <a class="social-button facebook" href="#" title="Facebook">
-      <img src="https://cdn-icons-png.flaticon.com/512/1384/1384005.png" alt="Facebook">
+  <p class="support-message">¡Tu apoyo nos inspira a seguir creando!</p>
+
+  <div class="social-icons">
+    <a class="youtube" href="https://www.youtube.com/@StoryMusicLatam" target="_blank" title="YouTube">
+      <i class="fab fa-youtube"></i>
     </a>
-    <a class="social-button instagram" href="#" title="Instagram">
-      <img src="https://cdn-icons-png.flaticon.com/512/1384/1384017.png" alt="Instagram">
+    <a class="instagram" href="#" target="_blank" title="Instagram (Próximamente)">
+      <i class="fab fa-instagram"></i>
     </a>
-    <a class="social-button tiktok" href="#" title="TikTok">
-      <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok">
+    <a class="facebook" href="#" target="_blank" title="Facebook (Próximamente)">
+      <i class="fab fa-facebook"></i>
     </a>
-    <a class="social-button youtube" href="#" title="YouTube">
-      <img src="https://cdn-icons-png.flaticon.com/512/1384/1384028.png" alt="YouTube">
+    <a class="tiktok" href="#" target="_blank" title="TikTok (Próximamente)">
+      <i class="fab fa-tiktok"></i>
     </a>
   </div>
+
 </body>
 </html>
